@@ -1,0 +1,10 @@
+<h1>Veiculos</h1>
+<div class="container">
+    {{#each veiculos}}
+    <div class="container-style">
+        <p id="name">{{this.id}}- {{this.marca}}</p>
+        <p>Modelo: {{this.modelo}}</p>
+        <p>Ano: {{this.ano}}</p>
+    </div>
+    {{/each}}
+</div>

@@ -1,0 +1,11 @@
+<h1>Clientes</h1>
+<div class="container">
+    {{#each cliente}}
+    <div class="container-style">
+        <p id="name">{{this.id}}- {{this.nome}}</p>
+        <p>Endereço: {{this.endereco}}</p>
+        <p>Telefone: {{this.telefone}}</p>
+        <p>E-mail: {{this.email}}</p>
+    </div>
+    {{/each}}
+</div>
